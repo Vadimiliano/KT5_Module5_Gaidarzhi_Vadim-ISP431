@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SportApp"
         mc:Ignorable="d"
-        Title="ИС по прокату спортивного инвентаря" Height="450" Width="800">
+        Title="ИС по прокату спортивного инвентаря" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"></RowDefinition>
@@ -17,7 +18,7 @@
                        FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" 
                        VerticalAlignment="Center"></TextBlock>
             <Image Source="/Res/logo.png" VerticalAlignment="Center"
-                   HorizontalAlignment="Left" Margin="100,0,0,0"></Image>
+                   HorizontalAlignment="Left" Margin="90,0,0,0"></Image>
         </Grid>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" VerticalAlignment="Center"

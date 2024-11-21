@@ -22,12 +22,12 @@
                             <ColumnDefinition Width="400"></ColumnDefinition>
                             <ColumnDefinition Width="300"></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <StackPanel Grid.Column="0">
+                        <StackPanel Grid.Column="0" Margin="5">
                             <TextBlock Text="{Binding UserName,
-                            StringFormat={} {0}}"></TextBlock>
+                            StringFormat={} {0}}" FontWeight="Bold"></TextBlock>
                             
                             <TextBlock Text="{Binding Email,
-                            StringFormat={} {0}}"></TextBlock>
+                            StringFormat={} {0}}" ></TextBlock>
                             <TextBlock Text="{Binding DateOfBirth,
                             StringFormat={} {0:dd.MM.yyyy}}"></TextBlock>
                             <TextBlock Text="{Binding PhoneNumber,
@@ -46,7 +46,7 @@
 
         <Button x:Name="AddButton" Content="Добавить" 
                 Grid.Row="1" Width="130" FontSize="15"
-                Height="30" HorizontalAlignment="Right" Margin="0,0,20,0" ></Button>
+                Height="40" HorizontalAlignment="Right" Margin="0,0,20,0" ></Button>
 
 
     </Grid>

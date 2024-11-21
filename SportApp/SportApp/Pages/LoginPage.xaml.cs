@@ -54,11 +54,15 @@ namespace SportApp.Pages
                     Classes.Manager.MainFrame.Navigate(new Pages.UserListPage());
 
                 }
+                else
+                {
+                    MessageBox.Show("Данные введены не верно!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
 
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show("Ошибка!", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

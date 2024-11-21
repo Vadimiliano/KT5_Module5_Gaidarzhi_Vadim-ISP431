@@ -14,8 +14,8 @@
             <TextBox x:Name="LoginTextBox"></TextBox>
             <Label Content="Пароль"></Label>
             <PasswordBox x:Name="UserPasswordBox"></PasswordBox>
-            <Button x:Name="LoginButton" Content="Авторизоваться" Click="LoginButton_Click"
-                   Margin="10" Width="120"></Button>       
+            <Button x:Name="LoginButton" Content="Войти" Click="LoginButton_Click"
+                   Margin="5" Width="120" Height="40" FontSize="10"></Button>       
         </StackPanel>
     </Grid>
 </Page>
